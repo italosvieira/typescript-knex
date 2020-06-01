@@ -1,0 +1,24 @@
+{
+  "name": "typescript-knex",
+  "version": "1.0.0",
+  "description": "Just a Typescript + Knex + Postgres project to test some queries.",
+  "main": "index.ts",
+  "author": "Ítalo da Silva Vieira",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/italosvieira/typescript-knex.git"
+  },
+  "dependencies": {
+    "@types/node": "^14.0.6",
+    "@types/pg": "^7.14.3",
+    "dotenv": "^8.2.0",
+    "knex": "^0.21.1",
+    "pg": "^8.2.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.3"
+  }
+}
